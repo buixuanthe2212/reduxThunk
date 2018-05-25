@@ -1,0 +1,434 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">JinjerKeihi</string>
+
+    <!-- Additional names now noted in the license screen -->
+    <string name="copyright">Copyright 2015 – 2018 Michael Farrell</string>
+
+    <!-- General application strings -->
+    <string name="license">Licenses</string>
+    <string name="title_activity_license">Open Source Licenses</string>
+    <string name="directions">カードをタップしてください。</string>
+    <string name="reading_card">カードを読み込み中…</string>
+    <string name="dont_move">カードを移動しないでください</string>
+    <string name="advanced_info">高度情報</string>
+    <string name="delete_card">カードを削除する</string>
+    <string name="unknown_card">未知のカード</string>
+    <string name="hw_detail">製造情報</string>
+    <string name="data">生データ</string>
+    <string name="copy_xml">コピー</string>
+    <string name="share_xml">共有</string>
+    <string name="save_xml">ファイルに保存</string>
+    <string name="trips">旅行</string>
+    <string name="balance">残高</string>
+    <string name="refills">リフィル</string>
+    <string name="no_trip_data">履歴は見つかりませんでした。このカードを使用しましたか?</string>
+    <string name="import_xml">インポート</string>
+    <string name="import_clipboard">クリップボードから貼り付け</string>
+    <string name="import_file">ファイルからインポート</string>
+    <string name="export">エクスポート</string>
+    <string name="export_all">すべてエクスポートする</string>
+    <string name="about">について</string>
+    <string name="preferences">環境設定</string>
+    <string name="accessibility">アクセシビリティ</string>
+    <string name="speak_balance">残高を大きく読み上げ</string>
+    <string name="speak_balance_summary">カードをスキャンするとき、残高を自動的に読み上げます。これは、他の音声合成のソフトウェアが利用できない場合でも機能します。</string>
+    <string name="balance_speech">残高 <xliff:g example="$13.37" id="balance">%s</xliff:g></string>
+    <string name="loading">ロード中…</string>
+    <string name="scanned_at_format" formatted="false">%2$sに%1$sにスキャンされました</string>
+    <string name="supported_cards">利用できるカード</string>
+    <string name="pass_or_transfer">パス／乗り換え</string>
+    <string name="transaction_sequence">順序</string>
+
+    <string name="felica_terminal_fare_adjustment">精算機</string>
+    <string name="felica_terminal_portable">携帯型端末</string>
+    <string name="felica_terminal_vehicle">等車載端末</string>
+    <string name="felica_terminal_ticket">券売機</string>
+    <string name="felica_terminal_deposit_quick_charge">入金機(クイックチャージ機)</string>
+    <string name="felica_terminal_tvm_tokyo_monorail">券売機(東京モノレール)</string>
+    <string name="felica_terminal_tvm_etc">券売機、など。</string>
+    <string name="felica_terminal_turnstile">改札機</string>
+    <string name="felica_terminal_ticket_validator">簡易改札機</string>
+    <string name="felica_terminal_ticket_booth">窓口端末</string>
+    <string name="felica_terminal_ticket_office_green">窓口端末(みどりの窓口)</string>
+    <string name="felica_terminal_ticket_gate_terminal">改札端末</string>
+    <string name="felica_terminal_mobile_phone">携帯電話</string>
+    <string name="felica_terminal_connection_adjustment">乗継清算機</string>
+    <string name="felica_terminal_transfer_adjustment">連絡改札機 Machine</string>
+    <string name="felica_terminal_simple_deposit">簡易入金機</string>
+    <string name="felica_terminal_pos">物販端末</string>
+    <string name="felica_terminal_vending">自販機</string>
+
+    <string name="felica_process_fare_exit_gate">出口改札</string>
+    <string name="felica_process_charge">チャージ</string>
+    <string name="felica_process_purchase_magnetic">券購(磁気券購入)</string>
+    <string name="felica_process_fare_adjustment">精算</string>
+    <string name="felica_process_admission_payment">精算(入場精算)</string>
+    <!-- <string name="felica_process_both_exit">窓出(改札窓口処理)</string> -->
+    <string name="felica_process_issue_new">新規(新規発行)</string>
+    <string name="felica_process_booth_deduction">控除(窓口控除)</string>
+    <string name="felica_process_bus_pitapa">バス(PiTaPa系)</string>
+    <string name="felica_process_bus_iruca">バス(IruCa系)</string>
+    <string name="felica_process_reissue">再発(再発行処理)</string>
+    <string name="felica_process_payment_shinkansen">支払(新幹線利用)</string>
+    <string name="felica_process_entry_a_autocharge">入A(入場時オートチャージ)</string>
+    <string name="felica_process_exit_a_autocharge">出A(出場時オートチャージ)</string>
+    <string name="felica_process_deposit_bus">入金(バスチャージ)</string>
+    <string name="felica_process_purchase_special_ticket">券購 (バス路面電車企画券購入)</string>
+    <string name="felica_process_merchandise_purchase">物販</string>
+    <string name="felica_process_bonus_charge">特典(特典チャージ)</string>
+    <string name="felica_process_register_deposit">入金(レジ入金)</string>
+    <string name="felica_process_merchandise_cancel">物販取消</string>
+    <string name="felica_process_merchandise_admission">入物 (入場物販)</string>
+    <string name="felica_process_merchandise_purchase_cash">物現 (現金併用物販)</string>
+    <string name="felica_process_merchandise_admission_cash">入物 (入場現金併用物販)</string>
+    <string name="felica_process_payment_thirdparty">精算 (他社精算)</string>
+    <string name="felica_process_admission_thirdparty">精算 (他社入場精算)</string>
+    <!--<string name="nfc_off_error">NFCオフ</string>-->
+    <!--<string name="turn_on_nfc">カードのデータを読み込むためにNFCを有効してください。</string>-->
+    <!--<string name="wireless_settings">無線設定</string>-->
+    <!--<string name="report_error">エラー情報を送信する</string>-->
+    <string name="unknown_card_description">読み込んだカードは Metrodroid で対応していません。データだけが表示されます。</string>
+    <string name="report_error_privacy_title">個人情報の取扱いについて</string>
+    <string name="report_error_privacy_message">このカードの全てのデータがエラーレポートに含まれます。</string>
+    <string name="scanned_cards">履歴</string>
+    <string name="no_scanned_cards">カードがまだスキャンされていません。</string>
+
+    <string name="location_tokyo">東京</string>
+    <string name="location_kansai">関西</string>
+    <!--<string name="app_name">Metrodroid</string>-->
+    <!--<string name="copyright">Copyright 2015 – 2018 Michael Farrell</string>-->
+    <!--<string name="license">ライセンス</string>-->
+    <!--<string name="title_activity_license">オープンソース ライセンス</string>-->
+    <string name="locked_card">ロックされたカード</string>
+    <string name="fully_locked_desc">"このカードは鍵なしに自由に読み取りできる部分はありません。有効な鍵がインストールされていません。
+\n
+\n
+\n Metrodroid によってサポートされている場合、鍵をインストールすると、カードを動作させることができます。詳細についてはドキュメントを参照してください。
+\n
+\n お使いのカードが Metrodroid によってサポートされていない場合、鍵が解析されない限り、サポートされる可能性はありません。
+\n
+\n
+\n 発行されたカードで、一部のレベルのオープンデータアクセスを可能にするために、市営交通機関に問い合わせてください。公共交通スマートカードのデータに、安全に限定された読み取りアクセスをすることは可能です。 "</string>
+    <string name="fully_locked_title">完全にロックされたカードです。</string>
+    <string name="block_title_format" formatted="false">ブロック: %s</string>
+    <string name="sector_title_format" formatted="false">セクター: 0x%s</string>
+    <string name="unauthorized_sector_title_format" formatted="false">セクター: 0x%s (未承認)</string>
+    <string name="invalid_sector_title_format" formatted="false">セクター: 0x%1$s (無効: %2$s)</string>
+    <string name="subscriptions">サブスクリプション</string>
+    <string name="info">情報</string>
+    <string name="valid_format" formatted="false">有効な %1$s %2$s へ</string>
+    <string name="unknown_format" formatted="false">不明 (%s)</string>
+    <string name="keys_required">このカードを読み取るために、暗号化鍵が必要です。</string>
+    <string name="load_keys">鍵をロード</string>
+    <string name="card_keys_not_supported">Metrodroid は、この種類のカードの鍵をサポートしません。</string>
+    <string name="add_key">鍵を追加</string>
+    <string name="error">エラー</string>
+    <string name="keys">鍵</string>
+    <string name="delete">削除</string>
+    <string name="add_key_directions">鍵のバイナリダンプを .farebotkeys 拡張子のファイルで保存して、添付ファイルとしてメールで送信し、その後このデバイスで開きます。</string>
+    <string name="no_keys">鍵がありません。</string>
+    <!--<string name="nfc_unavailable">NFC が利用不可</string>-->
+    <string name="fare_cancelled_format" formatted="false">%s (キャンセル)</string>
+    <string name="general">全般</string>
+    <string name="launch_from_background">バックグラウンドで起動</string>
+    <string name="error_report_sent">エラー報告を送信しました。</string>
+    <string name="checksum">チェックサム</string>
+    <string name="last_transaction">最後のトランザクション</string>
+    <string name="date">日付</string>
+    <string name="time">時刻</string>
+    <string name="vehicle_type">乗り物の種類</string>
+    <string name="transaction_type">トランザクションの種類</string>
+    <string name="card_epoch">カード エポック</string>
+    <string name="card_not_supported_on_device">このカードは、お使いのデバイスでサポートされていません。</string>
+    <string name="card_note_cepas">すべてのデバイスと互換性がありません。</string>
+    <string name="need_stations">一部の駅の名前が不明です。</string>
+    <string name="need_stations_submit">報告</string>
+    <string name="card_preview_reader">ベータ版のカードリーダーです。</string>
+    <string name="visit_website">ウェブサイトを訪問</string>
+    <string name="title_activity_about">Metrodroid について</string>
+    <string name="card_type">カードの種類</string>
+    <string name="select_file">ファイルを選択</string>
+    <string name="copied_to_clipboard">クリップボードにコピーしました</string>
+    <string name="saved_xml">USB ストレージに Metrodroid Export.xml を書き込みました。</string>
+    <plurals name="cards_imported">
+        <item quantity="one"><xliff:g example="1" id="count">%d</xliff:g>カードをインポートしました!</item>
+        <item quantity="other" />
+    </plurals>
+
+    <string name="location_seattle">米国 ワシントン州 シアトル</string>
+    <string name="location_san_francisco">米国 カリフォルニア州 サンフランシスコ</string>
+    <string name="location_singapore">シンガポール</string>
+    <string name="location_the_netherlands">オランダ</string>
+    <string name="location_sao_paulo">ブラジル サンパウロ</string>
+    <string name="location_helsinki_finland">フィンランド ヘルシンキ</string>
+    <string name="location_sydney_australia">オーストラリア シドニー</string>
+    <string name="location_brisbane_seq_australia">オーストラリア クイーンズランド州 ブリスベン &amp; SE</string>
+    <string name="location_victoria_australia">オーストラリア ビクトリア州</string>
+
+    <string name="felica_process_booth_exit">駅長ブース出口</string>
+    <string name="hsl_pass_is_valid">有効なシーズン チケット</string>
+    <string name="hsl_1zone_ticket">内部チケット</string>
+    <string name="hsl_2zone_ticket">地域チケット</string>
+    <string name="hsl_balance_refill">残高チャージ</string>
+    <string name="hsl_balance_ticket">バリュー チケット</string>
+    <string name="hsl_value_ticket_is_valid">有効なバリュー チケット</string>
+    <string name="hsl_pass_ticket">シーズン チケット</string>
+    <string name="hsl_season_ticket_starts">シーズン チケット開始</string>
+    <string name="hsl_season_ticket_ends">シーズン チケット終了</string>
+    <string name="hsl_season_ticket_bought_on">シーズン チケット購入</string>
+    <string name="hsl_previous_season_ticket">前のシーズン チケットは</string>
+    <string name="hsl_season_ticket_price_was">シーズン チケットの値段は</string>
+    <string name="hsl_you_last_used_this_ticket">最後にこのチケットを使用したのは</string>
+    <string name="hsl_person_format" formatted="false">%s 人</string>
+    <string name="hsl_mins_format" formatted="false">%s 分</string>
+    <string name="hsl_value_ticket">バリュー チケット</string>
+    <string name="hsl_value_ticket_bought_on">チケット購入</string>
+    <string name="hsl_value_ticket_expires_on">チケットの有効期限</string>
+    <string name="hsl_value_ticket_last_transfer">最後の乗換</string>
+    <string name="hsl_value_ticket_last_sign">最後の署名</string>
+    <string name="hsl_value_ticket_price">バリュー チケットの値段</string>
+    <string name="hsl_value_ticket_disco_group">割引グループ</string>
+    <string name="hsl_value_ticket_pax">グループ サイズ</string>
+    <string name="hsl_value_ticket_duration">チケット有効期間</string>
+    <string name="hsl_value_ticket_vehicle_number">乗り物番号</string>
+    <string name="hsl_value_ticket_vehicle_type">乗り物の種類</string>
+    <string name="hsl_value_ticket_line_number">路線番号</string>
+    <string name="hsl_season_ticket">シーズン チケット</string>
+
+    <string name="opal_automatic_top_up">自動チャージ</string>
+    <string name="opal_weekly_trips">毎週の旅行</string>
+    <string name="opal_vehicle_bus">バス</string>
+    <string name="opal_vehicle_ferry_lr">フェリーや路面電車</string>
+    <string name="opal_vehicle_rail">鉄道</string>
+    <string name="opal_action_none">なし (新規、未使用カード)</string>
+    <string name="opal_action_new_journey">新しい旅</string>
+    <string name="opal_action_transfer_same_mode">乗換 (同じ形態から)</string>
+    <string name="opal_action_transfer_diff_mode">乗換 (異なる形態から)</string>
+    <string name="opal_action_manly_new_journey">新しい旅 (マンリー フェリー)</string>
+    <string name="opal_action_manly_transfer_same_mode">乗換 (他のフェリーからマンリー フェリー)</string>
+    <string name="opal_action_manly_transfer_diff_mode">乗換 (他の形態からマンリー フェリーへ)</string>
+    <string name="opal_action_journey_completed_distance">旅を完了しました (距離運賃)</string>
+    <string name="opal_action_journey_completed_flat_rate">旅を完了しました (定額制運賃)</string>
+    <string name="opal_action_journey_completed_auto_off">旅を完了しました (取り出しに失敗)</string>
+    <string name="opal_action_journey_completed_auto_on">旅を完了しました (挿入に失敗)</string>
+    <string name="opal_action_tap_on_reversal">反対に挿入</string>
+
+    <string name="seqgo_refill_manual">手動チャージ</string>
+    <string name="seqgo_refill_automatic">自動チャージ</string>
+    <string name="card_note_seqgo">Go Access, Explore または SEEQ カードはサポートしません。</string>
+
+    <string name="card_note_myki">カード番号のみ読み取ることができます。</string>
+    <string name="unknown_card_header">不明なカード フォーマット</string>
+    <string name="unknown_more_info">詳細情報</string>
+    <string name="unknown_more_info_desc">このカードの Metrodroid のサポートの詳細については、タップしてください。</string>
+
+
+    <string name="lawyercats">Metrodroid と作者は、公共交通機関と何の関連もありません。</string>
+    <plurals name="block_count">
+        <item quantity="one">%d ブロック</item>
+        <item quantity="other" />
+    </plurals>
+
+    <string name="page_title_format" formatted="false">ページ: 0x%s</string>
+    <string name="map_tiles_url">地図タイル URL</string>
+    <string name="map_tiles_url_summary">Leaflet TileLayer 構文を使用して、埋め込み地図のカスタム タイル サーバーを使用します。</string>
+    <string name="map_tiles_subdomains">地図タイルのサブドメイン</string>
+    <string name="map_tiles_subdomains_summary">地図 URL に {s} を使用する場合は、カンマで区切られたサブドメインのリストか、サブドメインの 1 文字のリスト。</string>
+
+    <string name="default_map_tile_url">https://tile{s}.stackcdn.com/osm_tiles_2x/{z}/{x}/{y}.png</string>
+    <string name="default_map_tile_subdomains">123456</string>
+
+    <string name="about_card_format" formatted="false">このカードフォーマットについて</string>
+    <string name="online_services">オンライン サービス</string>
+    <string name="mifare_classic">MIFARE クラシック</string>
+    <string name="auth_retries">認証の再試行</string>
+    <string name="auth_retries_summary">セクターごとに認証を試行する回数</string>
+
+    <string name="valid_to_format" formatted="false">%1$s まで有効</string>
+    <string name="unknown">不明</string>
+    <string name="seqgo_ticket_type">チケットの種類</string>
+    <string name="seqgo_ticket_type_regular">正規</string>
+    <string name="seqgo_ticket_type_concession">割引</string>
+    <string name="seqgo_ticket_type_child">子供</string>
+    <string name="seqgo_ticket_type_senior">シニア</string>
+
+    <string name="nextfare">Cubic Nextfare</string>
+    <string name="nextfare_system_code">システム コード</string>
+    <string name="nextfare_ticket_class">チケット クラス コード</string>
+
+    <string name="export_filename">エクスポート ファイル名</string>
+    <string name="valid_not_used">まだ使用していません</string>
+    <string name="saved_xml_custom">USB ストレージに XML を書き込みました。</string>
+    <string name="location_hong_kong">香港</string>
+
+    <string name="location_los_angeles">米国 カリフォルニア州 ロサンゼルス</string>
+
+    <string name="alternate_purse_balances">代替財布残高</string>
+
+
+    <string name="octopus_szt">深圳通</string>
+    <string name="location_shenzhen">中国、広東省、深圳</string>
+    <string name="storage_required">カードのダンプと鍵ファイルへの読み書きのためにアクセス許可が必要です。</string>
+
+
+    <string name="card_expiry_date">カード有効期限</string>
+
+    <string name="mfc_fallback_desc">一部の機関は、カードに識別のマジックがありません。それらを読み取るためには機関を明示的に選択する必要があります。</string>
+    <string name="mfc_fallback">フォールバック リーダー</string>
+
+    <string name="location_act_australia">オーストラリア首都特別地域, オーストラリア</string>
+
+    <string name="card_note_bilhete_unico">設定でフォールバック リーダーとして選択する必要があります。</string>
+
+    <string name="location_wa_australia">西オーストラリア州, オーストラリア</string>
+
+    <string name="obfuscation_title">難読化</string>
+    <string name="obfuscation_card_numbers">カード番号を非表示</string>
+    <string name="obfuscation_card_numbers_desc">どこにもカード番号を表示しません</string>
+
+    <string name="obfuscation_balance">残高の難読化</string>
+    <string name="obfuscation_balance_desc">ランダムな金額に残高を変更します</string>
+
+    <string name="obfuscation_dates">日付の難読化</string>
+    <string name="obfuscation_dates_desc">旅行日、購入日、有効期限、スキャンした日付を異なる、ランダムな日として表示します</string>
+
+    <string name="obfuscation_times">時間の難読化</string>
+    <string name="obfuscation_times_desc">旅行、購入、およびスキャンしたタイムスタンプをあいまいにし、精度を下げます</string>
+
+    <string name="obfuscation_fares">運賃の難読化</string>
+    <string name="obfuscation_fares_desc">ランダムな金額で表示されるように運賃を変更します</string>
+
+    <plurals name="obfuscation_mode_notice">
+        <item quantity="other"><xliff:g example="1" id="count">%d</xliff:g> 難読化フラグオン</item>
+    </plurals>
+
+    <string name="map_tiles_help">リーフレット TileLayer ドキュメントを表示</string>
+    <string name="map_tiles_help_summary">マップタイル URL を使用するためのヘルプ。リーフレットのオンラインドキュメントを参照してください (英語でのみ利用可能)。</string>
+    <string name="hidden_card_number">非表示カード番号</string>
+    <plurals name="hidden_key_data">
+        <item quantity="other">非表示キーデータ (<xliff:g example="1" id="count">%d</xliff:g> バイト)</item>
+    </plurals>
+
+    <string name="locked_mfc_card">ロックされた MIFARE クラシック カード</string>
+    <string name="locked_mfu_card">ロックされた MIFARE Ultralight カード</string>
+    <string name="locked_mfd_card">ロックされた MIFARE DESFire カード</string>
+    <string name="application_title_format" formatted="false">アプリケーション: 0x%s</string>
+    <string name="file_title_format" formatted="false">ファイル: 0x%s</string>
+    <string name="unauthorized_file_title_format" formatted="false">ファイル: 0x%s (未承認)</string>
+    <string name="invalid_file_title_format" formatted="false">ファイル: 0x%1%s (無効: %2$s)</string>
+    <string name="unauthorized_page_title_format" formatted="false">ページ: 0x%s (未承認)</string>
+    <string name="unsupported_tag">サポートされていない NFC カードメディア</string>
+
+    <string name="saving_card">カードを保存しています…</string>
+
+    <string name="mfc_reading">MIFARE クラシックカードを読み込んでいます…</string>
+    <string name="mfc_have_key">セクター %d のユーザーが指定したキーを試行しています…</string>
+    <string name="mfc_other_key">セクター %d のユーザーが指定した代替キーを試行しています…</string>
+    <string name="mfc_default_key">セクター %d の既知のキーを試行しています…</string>
+    <string name="mfc_reading_blocks">セクター %d を読み込んでいます…</string>
+
+    <string name="iso14a_detect">ISO 14443 カードタイプを検出しています…</string>
+    <string name="mfd_reading">MIFARE DESFire カードを読み込んでいます…</string>
+    <string name="card_reading_type"><xliff:g example="Opal" id="card_name">%s</xliff:g> を読み込んでいます…</string>
+
+    <string name="mfu_detect">MIFARE Ultralight カードタイプを検出しています…</string>
+    <string name="mfu_reading">MIFARE Ultralight カードを読み込んでいます…</string>
+
+    <string name="desfire_standard_file">標準ファイル</string>
+    <string name="desfire_backup_file">バックアップファイル</string>
+    <string name="desfire_value_file">値ファイル</string>
+    <string name="desfire_linear_record">リニアレコード</string>
+    <string name="desfire_cyclic_record">繰り返しレコード</string>
+    <string name="desfire_unknown_file">不明なファイルタイプ</string>
+    <plurals name="desfire_standard_format" formatted="false">
+        <item quantity="other">タイプ: %1$s, 長さ: %2$s バイト</item>
+    </plurals>
+
+    <plurals name="desfire_record_format" formatted="false">
+        <item quantity="other">タイプ: %1$s, レコード: %2$s (%3$s 最大), レコードサイズ: %4$s</item>
+    </plurals>
+
+    <string name="desfire_value_format" formatted="false">タイプ: %1$s, 範囲: %2$s - %3$s, クレジット限度: %4$s (%5$s)</string>
+    <string name="enabled">有効</string>
+    <string name="disabled">無効</string>
+
+
+    <string name="location_christchurch_nz">ニュージーランド, クライストチャーチ</string>
+
+    <string name="opal_action_tap_on_rejected">タップを拒否</string>
+    <string name="card_note_opal">無料旅券、片道チケットはサポートされていません。</string>
+
+    <string name="erg_agency_id">交通機関 ID</string>
+
+    <string name="hardware_information">ハードウェア情報</string>
+    <string name="cepas_version">CEPAS バージョン</string>
+    <string name="cepas_purse_id">財布 ID</string>
+    <string name="cepas_purse_status">財布の状態</string>
+    <string name="cepas_purse_balance">財布の残高</string>
+    <string name="cepas_purse_creation_date">財布の作成日</string>
+    <string name="cepas_expiry_date">財布の有効期限</string>
+    <string name="cepas_autoload_amount">自動チャージ金額</string>
+    <string name="cepas_last_txn_info">最後のトランザクション情報</string>
+    <string name="cepas_credit_header">クレジットヘッダー</string>
+    <string name="cepas_debit_options">デビットオプション</string>
+    <string name="cepas_other_purse_info">その他の財布情報</string>
+    <string name="cepas_logfile_record_count">ログファイルのレコード件数</string>
+    <string name="cepas_issuer_data_length">発行者データ長</string>
+    <string name="cepas_issuer_data">発行者固有データ</string>
+    <string name="cepas_purse_info">財布情報</string>
+
+    <string name="trip_description">%1$s(から) [→] %2$s(へ)</string>
+
+    <string name="mode_bus">バス</string>
+    <string name="mode_train">鉄道</string>
+    <string name="mode_tram">路面電車</string>
+    <string name="mode_metro">地下鉄</string>
+    <string name="mode_ferry">フェリー</string>
+    <string name="mode_ticket_machine">券売機</string>
+    <string name="mode_vending_machine">自動販売機</string>
+    <string name="mode_pos">POS</string>
+    <string name="mode_banned">禁止</string>
+    <string name="mode_unknown">不明</string>
+
+
+    <string name="ovc_autocharge_limit">自動チャージ限度</string>
+    <string name="ovc_autocharge_amount">自動チャージのチャージ</string>
+    <string name="ovc_autocharge">自動チャージ</string>
+
+
+    <string name="general_information">全般情報</string>
+    <string name="personal_information">個人情報</string>
+    <string name="date_of_birth">生年月日</string>
+    <string name="credit_information">クレジット情報</string>
+    <string name="software_information">ソフトウェア情報</string>
+    <string name="clipboard_error">クリップボードにアクセスできません</string>
+    <string name="localise_places">母国語で駅名と路線名を発音します</string>
+    <string name="localise_places_desc">お使いの言語ではなく、自分の母国語で駅名と路線名を発音するようにテキスト読み上げおよびその他のユーザー補助ソフトウェアのためのヒントを追加します。これは、外国地名の発音を改善しますが、理解しづらいかもしれません。これは Android 5.0 以降、(Google トークなど) LocaleSpan API をサポートするテキスト読み上げソフトウェア、そして適切な音声がインストールされている必要があります。</string>
+
+    // Title
+    <string name="title_error_card">読み込み失敗</string>
+    <string name="title_success_card">読み込み完了</string>
+    <string name="title_start_card">IC Card(ICカード）</string>
+    <string name="title_card_result">スイカカード</string>
+    <string name="vending_machine">自動販売機</string>
+    <string name="tab_card">ご利用中の端末にICカードを近ずけてください。</string>
+    <string name="nfc_off_error">NFCアプリが開けていません</string>
+    <string name="turn_on_nfc">カード情報を読み込むためにNFCを有効してください。</string>
+    <string name="wireless_settings">ワイヤレスの設定</string>
+    <string name="report_error">エラーのお知らせ</string>
+    <string name="nfc_unavailable">NFCを利用できません</string>
+    <string name="cancel">キャンセール</string>
+    <string name="no_data">データがありません。</string>
+    <string name="yes">OK</string>
+    <string name="error_in_the_scan">スキャン中にエラーを発生しました。\nスキャンが完了するまでにそのまま置いてください。</string>
+    <string name="message_error">ICカードの読み込みが失敗しました。</string>
+    <string name="message_success">ICカードの読み込みが完了しました。</string>
+    <string name="history">履歴</string>
+    <string name="back">閉じる</string>
+    <string name="send">送信</string>
+    <string name="try_again">再試行する</string>
+    <string name="check_network">ネットワーク接続を確認してください</string>
+    <string name="error_try_again">Error Please try again</string>
+
+    <string name="api_url">https://api.keihi-dev-web.integ.jinjer.biz</string>
+</resources>

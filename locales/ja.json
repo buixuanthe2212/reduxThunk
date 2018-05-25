@@ -1,0 +1,27 @@
+{
+  "login": {
+    "company_id": "企業ID",
+    "employee_id": "従業員ID　もしくは　メールアドレス",
+    "password": "パスワード",
+    "remember": "次回から入力を省略",
+    "btn_forgot": "パスワードを忘れた方はこちら",
+    "btn_login": "ログイン"
+  },
+  "validation": {
+    "fields": {
+      "company_id": "企業ID",
+      "employee_id": "従業員ID",
+      "password": "パスワード"
+    },
+    "required": "は必須入力です",
+    "minLength": "Must be ${min} characters at least ",
+    "maxLength": "Must be ${max} characters or less",
+    "minValue": "Must be at least %{min}",
+    "maxValue": "Must be %{max} or less",
+    "number": "Must be a number",
+    "email": "Must be a valid email",
+    "space": "文字の途中に空白があります。",
+    "unique": "既にその科目コードは利用されています。",
+    "halfSize": "半角の英数字と記号（-,_)のみ利用できます。"
+  }
+}

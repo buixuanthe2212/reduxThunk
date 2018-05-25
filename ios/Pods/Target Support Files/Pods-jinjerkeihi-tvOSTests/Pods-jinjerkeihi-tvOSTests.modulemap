@@ -1,0 +1,6 @@
+framework module Pods_jinjerkeihi_tvOSTests {
+  umbrella header "Pods-jinjerkeihi-tvOSTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

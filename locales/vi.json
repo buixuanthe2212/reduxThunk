@@ -1,0 +1,11 @@
+{
+  "greeting": "Greeting EN!",
+  "login": {
+    "company_id": "Company ID",
+    "employee_id": "Employee ID",
+    "password": "Password",
+    "remember": "Remember account",
+    "btn_forgot": "Forgot password",
+    "btn_login": "Login"
+  }
+}

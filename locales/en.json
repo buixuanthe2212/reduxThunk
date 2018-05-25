@@ -1,0 +1,40 @@
+{
+  "login": {
+    "company_id": "Company ID",
+    "employee_id": "Employee ID",
+    "password": "Password",
+    "remember": "Remember account",
+    "btn_forgot": "Forgot password",
+    "btn_login": "Login"
+  },
+  "expense": {
+    "expense": "経費精算",
+    "create_new": "Create New",
+    "search": "Search",
+    "name": "申請者（代理: ",
+    "money": "金額: ",
+    "bank": "件名: ",
+    "approval_in_progress": "次承認中"
+  },
+  "validation": {
+    "fields": {
+      "company_id": "企業ID",
+      "employee_id": "従業員ID",
+      "password": "パスワード"
+    },
+    "required": "は必須入力です",
+    "minLength": "Must be %{min} characters at least ",
+    "maxLength": "Must be %{max} characters or less",
+    "minValue": "Must be at least %{min}",
+    "maxValue": "Must be %{max} or less",
+    "number": "Must be a number",
+    "email": "Must be a valid email",
+    "space": "文字の途中に空白があります。",
+    "unique": "既にその科目コードは利用されています。",
+    "halfSize": "半角の英数字と記号（-,_)のみ利用できます。"
+  },
+  "button": {
+    "createNew": "Create New",
+    "search": "Search"
+  }
+}
